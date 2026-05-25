@@ -815,7 +815,9 @@ button, input, select, textarea {
 .services-header {
   padding-top: 180px;
   padding-bottom: 80px;
-  background: linear-gradient(180deg, var(--bg-soft-gray) 0%, var(--bg-white) 100%);
+  background-image: linear-gradient(180deg, rgba(245, 247, 250, 0.96) 0%, rgba(255, 255, 255, 0.88) 100%), url('../meeting.png');
+  background-size: cover;
+  background-position: center;
   text-align: center;
 }
 
@@ -925,7 +927,9 @@ button, input, select, textarea {
 
 /* Left panel: Deep Navy */
 .contact-sidebar {
-  background: linear-gradient(135deg, var(--deep-navy) 0%, var(--secondary-blue) 100%);
+  background: linear-gradient(135deg, rgba(0, 0, 32, 0.92) 0%, rgba(0, 32, 64, 0.92) 100%), url('../office_bg.png');
+  background-size: cover;
+  background-position: center;
   color: white;
   padding: 60px 48px;
   display: flex;
